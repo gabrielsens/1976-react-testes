@@ -2,7 +2,6 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App, { calcularNovoSaldo } from './app';
 import { fireEvent } from '@testing-library/react/dist/pure';
-import { act } from 'react-dom/test-utils';
 
 describe('Componente principal', () => {
   describe('Quando abro o app do banco ', () => {
